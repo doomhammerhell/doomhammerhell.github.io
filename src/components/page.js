@@ -46,7 +46,7 @@ export class Page extends Component {
       },
       {
         id: 18,
-        type: "Contact_Me.txt"
+        type: "contact.txt"
       }
     ]
   };
