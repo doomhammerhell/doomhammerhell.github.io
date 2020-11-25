@@ -14,30 +14,43 @@ export class Cat extends Component {
 
   information = {
     about:
-      "Aute voluptate qui eiusmod pariatur velit velit fugiat laborum irure veniam. Id labore proident mollit nostrud. Aliqua excepteur Lorem in duis.",
+      `Quantum Physics/Computing Researcher and Full Stack Developer, 
+      in love with Quantum Physics, Computing, Math, Python, Javascript, Arch Linux and free software. 
+      Always eager to learn about new technologies, using new equipment and help in developing communities. 
+      Lately focused on developing applications using the MERN and GRAND.`,
     education:
-      "Quis ut voluptate irure est. Ex in velit nisi nostrud occaecat ipsum non quis ea. Ipsum deserunt est amet adipisicing sint nulla quis nostrud. Ullamco enim do incididunt amet elit qui sint excepteur sit irure elit reprehenderit qui excepteur. Laborum ea minim aliquip et laboris aliquip reprehenderit sunt cupidatat pariatur esse do. In sint magna laborum culpa officia cillum ex velit commodo. Laborum adipisicing laboris incididunt nulla aliquip.",
+      `
+      - UIO - Oslo, Norway
+        Master' degree in Quantum Physics and Computer Engineering · (2016-2019)
+      - CALTECh
+        Quantum Cryptography, Computer Science · (2016 - 2018)
+      - University of California, Berkeley
+        Data Science and Engineering with Apache Spark, Data Analysis & Statistics · (2016 - 2016)
+      - UFRGS
+        Bachelor of Applied Science - BASc, Physics and Computer Sciences · (2011 - 2015)
+      - freeCodeCamp
+        Full Stack Web Development Certification, Computer Science · (2014 - 2014)`,
     projects: [
       {
-        projectName: "p1",
-        liveDemo: "https://github.com/shloksomani",
-        linkToGithub: "https://github.com/shloksomani"
+        projectName: "Predict Forest Fires",
+        liveDemo: "https://doomhammerhell.github.io/predict-forest-fires",
+        linkToGithub: "https://github.com/doomhammerhell/predict-forest-fires"
       },
       {
-        projectName: "p2",
-        liveDemo: "https://github.com/shloksomani",
-        linkToGithub: "https://github.com/shloksomani"
+        projectName: "Real-time Image Classifier",
+        liveDemo: "https://doomhammerhell.github.io/real-time-image-classifier",
+        linkToGithub: "https://github.com/doomhammerhell/real-time-image-classifier"
       }
     ],
     social: [
       {
         platform: "Github",
-        link: "https://github.com/shloksomani"
+        link: "https://github.com/doomhammerhell"
       },
 
       {
         platform: "Github",
-        link: "https://github.com/shloksomani"
+        link: "https://github.com/doomhammerhell"
       }
     ]
   };
@@ -92,7 +105,7 @@ export class Cat extends Component {
                   <a href={everySocial.link} target="_blank">
                     {everySocial.platform}
                   </a>
-                  <a href="https://github.com/shloksomani" target="_blank">
+                  <a href="https://github.com/doomhammerhell" target="_blank">
                     {/* <img src={githubLogo} alt="GithubLink to Code" /> */}
                   </a>
                 </p>

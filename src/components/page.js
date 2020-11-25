@@ -69,15 +69,15 @@ export class Page extends Component {
                   displayInput={l.displayInput}
                 ></NewLine>
               );
-            } else if (l.type === "ls") {
+            } else if (l.type === "ls" || l.type === "Ls") {
               return (
                 <Ls key={l.id} line={l} subDir={this.information.subDir}></Ls>
               );
-            } else if (l.type === "help") {
+            } else if (l.type === "help" || l.type === "Help") {
               return (
                 <Ls key={l.id} line={l} subDir={this.information.commands}></Ls>
               );
-            } else if (l.type === "cat") {
+            } else if (l.type === "cat" || l.type === "Cat") {
               return <Cat key={l.id} line={l}></Cat>;
             }
           })}
@@ -89,7 +89,7 @@ export class Page extends Component {
   handelWhatever = (string_value, Tid) => {
     let res = string_value.split(" ");
 
-    if (res[0] === "clear") {
+    if (res[0] === "clear" || res[0] === "clear") {
       this.setState({
         numberOfLine: 0,
         displayEverything: [
